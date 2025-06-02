@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "postbuild": "node postbuild.js",
-    "export": "next build && npm run postbuild",
-    "deploy": "npm run export"
+    "azure:build": "next build && npm run postbuild"
   },
   "dependencies": {
     "react": "^19.0.0",
